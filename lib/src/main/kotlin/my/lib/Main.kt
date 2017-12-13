@@ -1,4 +1,7 @@
+package my.lib
+
 fun max( a: Int, b: Int ) = if (a > b) a else b
+
 
 fun LCS(x: String?, y: String?): Int {
     if (x == null || y == null) {
